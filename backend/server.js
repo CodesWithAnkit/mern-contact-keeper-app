@@ -5,6 +5,9 @@ const connectDb = require('./config/db')
 const app = express()
 connectDb()
 
+// Init middleware dore req.body
+app.use(express.json({ extended: false }))
+
 app.get('/', (req, res) => {
   res.json({ msg: 'Hello wrold' })
 })
