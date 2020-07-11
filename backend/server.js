@@ -1,5 +1,4 @@
 const express = require('express')
-const { application } = require('express')
 const connectDb = require('./config/db')
 
 const app = express()
