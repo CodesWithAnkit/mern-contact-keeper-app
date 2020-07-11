@@ -1,4 +1,4 @@
 import { createContext } from 'react'
 
-const contactContext = createContext()
-export default contactContext
+const ContactContext = createContext()
+export default ContactContext
